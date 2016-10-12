@@ -34,7 +34,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(ar2rom(5), 'V')
 
     def test_9_to_ix(self):
-        self.assertEqual(ar2rom(9), 'ix')
+        self.assertEqual(ar2rom(9), 'IX')
 
     def test_10_to_x(self):
         self.assertEqual(ar2rom(10), 'X')
